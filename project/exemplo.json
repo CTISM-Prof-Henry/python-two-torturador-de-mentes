@@ -1,0 +1,12 @@
+{
+  "frida": {
+    "peso": 5.3,
+    "altura": 20.7,
+    "cor": "branca"
+  },
+  "poly": {
+    "peso": 15.3,
+    "altura": 40.0,
+    "cor": "preta"
+  }
+}
