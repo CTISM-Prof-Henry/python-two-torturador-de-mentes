@@ -1,8 +1,12 @@
 
-def tarefa_1():
-    # TODO escreva seu código aqui
-    raise NotImplementedError('ainda não implementado')
-    # TODO escreva seu código aqui
+def tarefa_1(N):
+    lista_de_fora = []
+    for i in range(N):
+        lista_de_dentro = []
+        for j in range(N):
+            lista_de_dentro.append(0)
+        lista_de_fora.append(lista_de_dentro)
+    return lista_de_fora
 
 
 def main():

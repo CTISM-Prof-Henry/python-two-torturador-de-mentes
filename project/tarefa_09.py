@@ -1,9 +1,18 @@
 
 def tarefa_9():
-    # TODO escreva seu código aqui
-    raise NotImplementedError('ainda não implementado')
-    # TODO escreva seu código aqui
-
+    tabela_em_codigo = [
+       ["preto","preto","preto"],
+       ["branco","branco","branco"],
+       ["caramelo","caramelo","caramelo"],
+       ["preto","branco","malhado"],
+       ["caramelo","branco","malhado"],
+       ["branco","malhado","malhado"],
+       ["preto","malhado","malhado"],
+       ["caramelo","malhado","malhado"],
+    ]
+    with open('tipos_de_pelo.csv', 'w') as some_file:
+        for line in tabela_em_codigo:
+            some_file.writelines(','.join(line) + '\n')
 
 def main():
     """

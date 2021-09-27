@@ -1,8 +1,9 @@
 
-def tarefa_3():
-    # TODO escreva seu código aqui
-    raise NotImplementedError('ainda não implementado')
-    # TODO escreva seu código aqui
+def tarefa_3(dicionario, valor):
+    for chave in dicionario:
+        if dicionario[chave] == valor:
+            return True
+    return False
 
 
 def main():

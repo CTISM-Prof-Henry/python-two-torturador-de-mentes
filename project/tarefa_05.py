@@ -1,8 +1,15 @@
 
-def tarefa_5():
-    # TODO escreva seu código aqui
-    raise NotImplementedError('ainda não implementado')
-    # TODO escreva seu código aqui
+def tarefa_5(x):
+    if x <= 0:
+        return 1
+
+    if x == 1:
+        return 0
+
+    if x == 2:
+        return 1
+
+    return 1 + tarefa_5(x // 2)
 
 
 def main():

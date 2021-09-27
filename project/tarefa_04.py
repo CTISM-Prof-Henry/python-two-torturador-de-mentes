@@ -1,8 +1,16 @@
 
-def tarefa_4():
-    # TODO escreva seu código aqui
-    raise NotImplementedError('ainda não implementado')
-    # TODO escreva seu código aqui
+def tarefa_4(x):
+    if x <= 0:
+        return 1
+
+    if x == 1:
+        return 0
+
+    contador = 0
+    while x >= 2:
+        contador += 1
+        x = x // 2
+    return contador
 
 
 def main():
